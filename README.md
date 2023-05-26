@@ -7,4 +7,4 @@
 # create feeddback or warnings 
 # create buttons and CSS Styles
 # 10+ commits
- 
+ # rankings of high scores
