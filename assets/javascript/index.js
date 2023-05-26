@@ -25,7 +25,7 @@ if (timeLeft > 1) {
   // Call the `displayMessage()` function
   displayMessage("Times Up");
 }
-}, 1000),
+}, 1000)
 
 };
 
