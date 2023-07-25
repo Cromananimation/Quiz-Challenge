@@ -7,16 +7,27 @@
     <title>Highscores for the Attainables</title>
 </head>
 <body>
-   
     <h1>Make it to the big Leagues</h1>
-    <ul>
-        <li>IDK - 80</li>
-        <li>OMW - 65</li>
-        <li>BTK - 50</li>
-        <li>BJ - 35</li>
-        <li>WTF - 10</li>
+    <ol id="highscore-list">
+        <!-- High scores will be dynamically populated here -->
+    </ol>
+    <button id="play-again-btn" onclick="window.location='index.html'">Play Again</button>
+    <script>
+        // Retrieve high scores from localStorage
+        const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-    </ul>
+        // Sort high scores in descending order
+        highScores.sort((a, b) => b.score - a.score);
 
+        // Get the element where we will display the high scores
+        const highScoreList = document.getElementById('highscore-list');
+
+        // Iterate through the high scores and create list items for each one
+        highScores.forEach((scoreObj) => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${scoreObj.initials} - ${scoreObj.score}`;
+            highScoreList.appendChild(listItem);
+        });
+    </script>
 </body>
 </html>

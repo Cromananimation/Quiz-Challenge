@@ -2,7 +2,9 @@
 /* need to work on styles */
 /* seperate page for high scores? */
 /* creat functional button for this*/
-
+#submit{
+    display: none;
+}
 .highscores {
     float:left;
 }
