@@ -14,7 +14,7 @@
 I wanted to build an interactive quiz menu that starts a timed quiz and stores the user's high scores. It will guage progress by assigning initials to each score, and has a countdown timer, buttons with CSS styling, and high score ranking. In addition, it also has confirmation popups that give you feedback on your choices as you go.
 
 ## Usage
-Play the quiz, have fun, answer as fast as you can. If you answer incorrectly, a small amount of score will be deducted from your time, which at the end becomes your final score. The deployment can be found here: [Deployment](https://www.google.com)
+Play the quiz, have fun, answer as fast as you can. If you answer incorrectly, a small amount of score will be deducted from your time, which at the end becomes your final score. The deployment can be found here: [Deployment](https://cromananimation.github.io/Quiz-Challenge/)
 ![Quiz Preview](./assets/images/preview.png)
 
 ## Credits
