@@ -1,8 +1,22 @@
+body {
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+.centered-ol {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+  }
 
-/* need to work on styles */
-/* seperate page for high scores? */
-/* creat functional button for this*/
-#submit{
+  .centered-ol li {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 10px 0;
+  }
+
+#submit {
     display: none;
 }
 .highscores {
@@ -10,4 +24,16 @@
 }
 .timer {
     float: right;
+}
+#choice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+#choice-list {
+    padding-left: 0
+}
+button {
+    min-width: 7vw;
 }
